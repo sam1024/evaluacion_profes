@@ -1,0 +1,92 @@
+@import url(reset-css.css);
+@import url(fonts.css);
+
+html {
+  font-size: 15px;
+  font-family: elmessiri !important;
+}
+
+section > .container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #fdfdfd 0%, #c5d0d6 100%) !important;
+  text-align: center;
+}
+
+#div_img {
+  text-align: center;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+h2 {
+  margin: 1rem 0 2rem 0;
+  font-size: 2rem;
+  color: #4d4d4d;
+}
+
+#user {
+  margin-bottom: 1rem;
+}
+
+.input_field {
+  /*display: block;*/
+  border: none;
+  height: 2rem;
+  width: 100%;
+  background: transparent;
+  border-bottom: .1rem solid #c5d0d6;
+  text-align: center;
+  outline: 0;/**** CON ESTO SE QUITA EL BORDE QUE SE MOSTRABA AL TENER EL FOCO ****/
+  font-size: 1.5rem;
+  font-family: elmessiri !important;
+}
+
+button {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #1f4f82;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: elmessiri !important;
+}
+
+button:hover {
+  background-color: #007cba;
+}
+
+/********************** MEDIAS QUERY ******************************/
+@media (min-width: 576px) {
+  form {
+    width: 25rem;
+    margin: auto;
+  }
+  .input_field, button {
+    /*width: 25rem;*/
+  }
+
+}
+
+@media (min-width: 992px) {
+  body {
+    background: url(../img/lotus-flowers.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  section > .container {
+    margin: 8rem auto;
+    background: rgba(255, 255, 255, .85) !important;
+    width: 28rem;
+    height: 30rem;
+  }
+
+  #div_img {
+    padding: 2rem;
+  }
+
+  .input_field, button {
+    width: 25rem;
+  }
+
+}

@@ -1,0 +1,149 @@
+/*PRINCIPAL*/
+.login{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+#sha{
+	max-width: 340px;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	-moz-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	border-radius: 6px;
+}
+#logoulp{
+	width: 220px;
+	height: 120px;
+	margin: 0 auto 10px;
+	display: block;
+}
+#periodo{
+	font-size: 10px;
+}
+/*FIN PRINCIPAL*/
+
+/*ERROR*/
+#aviso {
+	color: #B92C28;
+}
+/*FIN ERROR*/
+
+/*DATOS*/
+#inf {
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 4px double #337AB7;
+}
+#fielddatos {
+	border: 3px double #28A4C9 ;
+}
+#secc {
+	border: 3px solid #28A4C9;
+	text-align: center;
+}
+#eva {
+	font-size: 18px;	
+}
+#materia {
+	font-size: 14px;
+}
+/*FIN DATOS*/
+
+/*SECCION1*/
+#contenedor1secc1 {
+	//background-color: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    padding-bottom: 15px;
+	padding-top: 15px;
+    border: 4px double #337AB7;
+}
+#profmat {
+	font-size: 18px;
+}
+#secc1instrucc {
+	color: #265A88;
+}
+#secc1prof {
+	font-size: 16px;
+}
+#secc1logo {
+	width: 150px;
+	height: 80px;
+}
+#preguntas {
+	font-size: 16px;
+	color: #265A88;
+}
+/*FIN SECCION1*/
+
+/*SECCION2*/
+#secc2container1 {
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    padding-bottom: 15px;
+	padding-top: 15px;
+    border: 4px double #337AB7;	
+}
+/*#obs {
+	font-size: 17px;
+}*/
+#txtarea {
+	height: 150px;
+}
+/*FIN SECCION2*/
+
+/*ELEGIR*/
+#elegircontainer1 {
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    padding-bottom: 15px;
+	padding-top: 15px;
+    border: 4px double #337AB7;	
+}
+#eleaviso {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+/*FIN ELEGRI*/
+
+/*SECCION3*/
+#txtarea2 {
+	height: 150px;
+}
+/*FIN SECCION3*/
+
+/*ERROR*/
+#errorcont {
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+    padding-bottom: 15px;
+	padding-top: 15px;
+    border: 4px double #337AB7;
+}
+/*FIN ERROR*/
+
+/*CERRAR.HTML*/
+
+#cerrar {
+	//max-width: 340px;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	-moz-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+	border-radius: 6px;
+	text-align: center;
+}
+
+#pmsj {
+	font-size: 2em;
+	color: red;
+}
+
+/*FIN CERRAR.HTML*/

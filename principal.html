@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/estilo.css"/>
+		<link rel="shorcut icon" type="image/x-icon" href="img/favicon.ico" />
+		<title>
+			Evaluacion a cursos - Universidad Loyola del Pacífico
+		</title>
+	</head>
+	<body>
+		<br />
+		<br />
+		<div class="container well" id="sha">
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="img/Logo_horizontal.png" class="img-responsive" id="logoulp" />
+					<h4 class="text-center">
+						<em>
+							Dirección General Académica
+						</em>
+					</h4>
+					<h5 class="text-center">
+						<em>
+							Evaluación a cursos
+						</em>
+					</h5>
+					<p class="text-center" id="periodo">
+						Otoño 2015
+					</p>
+				</div>
+			</div>
+			<br />
+			<br />
+			<form class="login" action="controlador/ctrlDatos.php" method="post">
+				<div class="form-group">
+					<div class="input-group"><!--ESTE DIV DEBE IR PARA QUE FUNCIONE LA CLASE glyphicon y SE MUESTR EL ICON DENTRO DEL CAMPO DE TEXTO-->
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-user"></span>
+						</span>
+						<input type="number" class="form-control" placeholder="matrícula" name="mat" required autofocus />
+					</div>
+				</div>
+				<br />
+				<button type="submit" class="btn btn-primary btn-block">
+					Enviar
+				</button>
+			</form>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
