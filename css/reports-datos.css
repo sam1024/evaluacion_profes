@@ -1,0 +1,241 @@
+@import url(fonts.css);
+
+html {
+  font-size: 15px;
+  font-family: elmessiri;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#section_header {
+  border-bottom: 0.1rem solid darkgray;
+  height: 5.6rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+img {
+  width: 100%;
+}
+
+header  .container {
+  display: flex;
+  height: 3rem;
+}
+
+.div_img {
+  width: 5rem;
+  float: left;
+  height: 2.5rem;
+}
+
+section header .container > p {
+  text-align: center;
+  margin: 1.7rem auto;
+  font-size: 1.2rem;
+}
+
+.p_cerrar_sesion {
+  position: absolute;
+  font-size: .7rem !important;
+  width: 6rem !important;
+  height: 1rem;
+  top: -1.7rem;
+  right: -.9rem;
+}
+
+.link_close_session:hover {
+  color: red;
+}
+
+nav {
+  margin-top: .2rem;
+}
+
+#container {
+  width: 100%;
+  text-align: center;
+}
+
+.btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: .1rem solid #1f4f82;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  background-color: #1f4f82;
+  color: #fff;
+}
+
+.btns:hover {
+  background-color: #007cba;
+  border-color: #007cba;
+}
+
+.imgs {
+  position: relative;
+  display: inline-block;
+  width: 4rem;
+  height: 1rem;
+  margin: auto;
+  padding: .5rem;
+  text-align: center;
+}
+
+/***** MAIN TABLE *****/
+main {
+  margin-top: .3rem;
+}
+
+/*#tabla_datos tr:nth-child(odd) {/*ELEMENTO IMPAR*/
+  /*background-color: rgb(145, 5, 231);
+}*/
+
+/*table tr:nth-child(even) {/*ELEMENTO PAR*/
+  /*background-color: rgb(230, 11, 220);
+}*/
+
+/******* ESTILOS TABLA ******/
+.p_no_datos {
+  border: .2rem solid red;
+  border-radius: .5rem;
+  margin: 4rem auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.p_aviso {
+  font-weight: bold;
+  margin: 0 0 0 .5rem;
+  font-size: .8rem;
+  width: 17.6rem;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  position: relative;
+}
+
+thead {
+  display: block;
+  float: left;
+}
+
+thead tr {
+  display: block;
+}
+
+th {
+  background-color: #1f4f82;
+  color: #fff;
+  border-color: #1f4f82;
+}
+
+th, td {
+  display: block;
+  border: 1px solid #102467;
+}
+
+tbody {
+  vertical-align: text-top;
+  display: block;
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+tbody tr {
+  display: inline-block;
+  margin-left: -5px;
+}
+
+td {
+  margin-left: 0.3rem;
+}
+
+#tr1 {
+  padding-left: 5px;
+}
+/******* FIN ESTILOS TABLA ******/
+
+/************************************************ MEDIAS QUERY ******************************************************/
+@media (min-width: 768px) {
+  .div_img {
+    position: absolute;
+    width: 10rem;
+    height: 5.2rem;
+    padding: .2rem;
+  }
+
+  section header .container > p {
+    width: 14rem;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+  }
+
+  .p_cerrar_sesion {
+    font-size: 1.2rem !important;
+    top: -1.2rem;
+    right: 0;
+    width: 7rem !important;
+  }
+
+  .p_no_datos {
+    width: 35rem;
+    padding: .5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .p_aviso {
+    width: 20rem;
+  }
+
+  table {
+    display: table !important;
+    margin: auto !important;
+  }
+
+  thead {
+    display: table-header-group !important;
+    float: none;
+  }
+
+  tbody {
+    display: table-row-group !important;
+  }
+
+  tr {
+    display: table-row !important;
+    margin-left: 0 !important;
+  }
+
+  th, td {
+    display: table-cell !important;
+  }
+
+  td {
+    margin-left: 0 !important;
+  }
+
+}

@@ -1,4 +1,5 @@
 <?php
+
 	include 'modelDB.php';
 
 	class modelDatos{
@@ -125,9 +126,24 @@
 			return $this->modeldb->findMaterias($query); //RECIBE UN ARREGLO DE DATOS
 		}
 
-		public function loadEvaluacionesCompletas() {
+		public function loadEvaluacionesCompletasUni() {
 			$model_db = new modelDB();
-			return $model_db->loadEvaluacionesCompletas();
+			return $model_db->loadEvaluacionesCompletasUni();
+		}
+
+		public function loadEvaluacionesInCompletasUni() {
+			$model_db = new modelDB();
+			return $model_db->loadEvaluacionesInCompletasUni();
+		}
+
+		public function loadEvaluacionesCompletasPrepa() {
+			$model_db = new modelDB();
+			return $model_db->loadEvaluacionesCompletasPrepa();
+		}
+
+		public function loadEvaluacionesInCompletasPrepa() {
+			$model_db = new modelDB();
+			return $model_db->loadEvaluacionesInCompletasPrepa();
 		}
 
 	}

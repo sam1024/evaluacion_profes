@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.p_aviso {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+thead {
+  background-color: #1f4f82;
+  border-bottom-color: #1f4f82;
+  color: #fff;
+}

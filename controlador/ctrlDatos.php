@@ -49,9 +49,24 @@
 			}
 		}
 
-		public function loadEvaluacionesCompletas() {
+		public function loadEvaluacionesCompletasUni() {
 			$this->modeldatos = new modelDatos(0);
-			return $this->modeldatos->loadEvaluacionesCompletas();
+			return $this->modeldatos->loadEvaluacionesCompletasUni();
+		}
+
+		public function loadEvaluacionesInCompletasUni() {
+			$this->modeldatos = new modelDatos(0);
+			return $this->modeldatos->loadEvaluacionesInCompletasUni();
+		}
+
+		public function loadEvaluacionesCompletasPrepa() {
+			$this->modeldatos = new modelDatos(0);
+			return $this->modeldatos->loadEvaluacionesCompletasPrepa();
+		}
+
+		public function loadEvaluacionesInCompletasPrepa() {
+			$this->modeldatos = new modelDatos(0);
+			return $this->modeldatos->loadEvaluacionesInCompletasPrepa();
 		}
 
 	}
